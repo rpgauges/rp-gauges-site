@@ -199,4 +199,28 @@ footer {
   color: #666;
   font-size: 0.95rem;
 }
+.main-content {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.content-section {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
 
