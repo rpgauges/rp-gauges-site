@@ -142,11 +142,15 @@ footer {
     padding: 20px;
     font-size: 0.95rem;
   }
-.tagline {
-  text-align: center;
+..tagline {
+  font-family: Georgia, serif;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
+  text-align: center;
+  margin-top: 10px;
+  color: white; /* or black, depending on background */
+}
+
 }
 .products-container {
   padding: 40px 20px;
