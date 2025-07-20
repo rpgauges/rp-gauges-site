@@ -287,22 +287,31 @@ body {
 }
 
 /* Sidebar layout */
+body {
+  display: flex;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7fb;
+}
+
 .sidebar {
   width: 220px;
-  background-color: #0b1f34;
+  background: linear-gradient(180deg, #0b1f34 0%, #123a56 100%);
   color: white;
   height: 100vh;
   padding: 30px 20px;
   position: fixed;
   top: 0;
   left: 0;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar .logo {
   font-size: 1.8rem;
   margin-bottom: 40px;
   text-align: center;
-  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .sidebar nav ul {
@@ -316,18 +325,26 @@ body {
 }
 
 .sidebar nav ul li a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.1rem;
+  padding: 10px 15px;
   display: block;
-  transition: background 0.3s;
-  padding: 8px 12px;
-  border-radius: 6px;
+  border-radius: 8px;
+  transition: background 0.3s, padding-left 0.3s;
 }
 
 .sidebar nav ul li a:hover {
-  background-color: #1a3b5d;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 20px;
 }
+
+.content {
+  margin-left: 240px;
+  padding: 40px 30px;
+  width: 100%;
+}
+
 
 /* Main content shifts right */
 .content {
