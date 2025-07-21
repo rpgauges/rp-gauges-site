@@ -138,7 +138,42 @@ footer {
   background-color: #111;
   color: white;
   padding: 15px 0;
-  text-align:below ;
+  text-align:belowhtml, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: linear-gradient(to bottom, #001f3f, #003366);
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f5f7fa;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+ ;
   position: relative;
   bottom: 0;
   width: 100%;
